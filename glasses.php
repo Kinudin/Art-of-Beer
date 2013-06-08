@@ -59,7 +59,7 @@ Weizen</a>
 Oversized Wine <br> Glass</a>
 </article>
 
-<article><a href="glasses_redCup.php" class="redCup"><img src="images/redCup.jpg" alt="f">Red Solo Cup</a></article>
+<article><a href="glasses_redCup.php" class="redCup"><img src="images/redCup.png" alt="f">Red Solo Cup</a></article>
 
 </div>
 </div>

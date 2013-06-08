@@ -41,9 +41,6 @@ This practice is continued today in China.
 <p>Because science. And science is cool.
 </p>
 <div class="counter">
-<?php
-	include_once "counter.php";
-?>
 </div>
 </article>
 

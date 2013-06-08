@@ -19,7 +19,6 @@ body{
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Droid Serif', serif;
-  /*text-transform:uppercase;*/
   font-variant: small-caps;
 }
 
@@ -160,13 +159,15 @@ nav, .content{
   border-left: 1px solid gray;
 }
 
+/*
+SPLASH BODY STYLES
+*/
+
 .splashBody {
   height: 100%;
   width: 100%;
   background-color: black;
-  color: white;
   position: fixed;
-  font-family: 'Rye', cursive;
 
   background: url(images/splashBG.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -177,12 +178,20 @@ nav, .content{
 
 .splashBodyWords {
   margin-top: 25%;
+    font-family: 'Rye', cursive;
+}
+
+#responsive_headline {
+  font-family: 'Rye', cursive;
 }
 .splashBody a {
   text-decoration: none;
+  text-shadow: 2px 2px 1px #f1c411;
+  color: #000000;
 }
+
 .splashBody a:visited {
-  color: white;
+  color: #000000;
 }
 .splashBodyWords h1 {
   font-size: 9em;
@@ -191,6 +200,10 @@ nav, .content{
   background: rgba(139, 137, 137, .5);
 }
 
+
+/*
+GLASS PAGE DESCRIPTIONS
+*/
 .glassDescription {
   margin-left: 60px;
   margin-top: 50px;
@@ -203,7 +216,6 @@ nav, .content{
 }
 
 .glassDescription h1 {
-  /*margin-bottom: 5px;*/
   margin-top: 25px;
 }
 
@@ -223,7 +235,6 @@ nav, .content{
 
 .glassesDisplay article {
   width: 250px;
-  /*border: 1px solid black;*/
   text-align: center;
 }
 
@@ -271,7 +282,3 @@ PULLQUOTE INFORMATION
       color: darken($white, 7%);
       z-index: -1;
    }
-
-.counter {
-visibility: hidden;
-}
