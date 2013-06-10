@@ -14,4 +14,3 @@ $(document).hover(function() {
 	}
 	)
 });
-

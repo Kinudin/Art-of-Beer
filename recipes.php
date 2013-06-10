@@ -13,47 +13,48 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
+
 <div class="container">
+	<img src="images/recipes.jpg" style="float: right; height: 400px; margin-left: 150px; width: 172px">
+
 <div class="mainBody">
 	<h1>Recipes</h1>
-		<aside>Recipes are essentially the blueprint to your brew. Make whatever the heck you want!</aside>
-	<div class="glassDescription">
-		<img src="images/carboy.jpg" alt="">
-
-		<h1>Ingredients</h1>
-
-		<ul> Heelch O Hops
-			<li>Pale Malt</li>
-			<li>Caramel/Crystal Malt</li>
-			<li>Chnook</li>
-			<li>Columbus</li>
-			<li>Cascade (5.5% @ 30 Min)</li>
-			<li>Cascade (5.5% @ 15 Min)</li>
-			<li>Cascade (5.5% @ 0 Min)</li>
-			<li>Cascade (5.5% @ Dry Hop 10 Days)</li>
-			<li>Chinook (13.0% @ Dry Hop 10 Days)</li>
-		</ul>
-	<h1>Describe its Flavor</h1>
-	<p>
+	<aside>Recipes are essentially the blueprint to your brew. Make whatever the heck you want!</aside>
+<article>
+	<h2 style="margin-bottom: 220px;">Ingredients</h2>
+		Heelch O Hops <br>
+		Pale Malt <br>
+		Caramel/Crystal Malt <br>
+		Chnook <br>
+		Columbus <br>
+		Cascade (5.5% @ 30 Min) <br>
+		Cascade (5.5% @ 15 Min) <br>
+		Cascade (5.5% @ 0 Min) <br>
+		Cascade (5.5% @ Dry Hop 10 Days) <br>
+		Chinook (13.0% @ Dry Hop 10 Days) <br>
+</article>
+<br><br><br><br><br>
+<article>
+	<h2 style="margin-bottom: 50px;">Describe its Flavor</h2>
+		<p>
 		Hoppy. Just look at all of those hops!
 		<br>
 		I'm still taking my tongue to physical therapy due to the IBU's!
-	</p>
-	<h1>Do you want more recipes?</h1>
-	<ul>
-		<li><a href="http://beersmithrecipes.com/">Beer Smith Recipes</a></li>
-		<br>
-		<li><a href="http://beerrecipes.org/">Home Brewers Recipes</a></li><br>
-		<li><a href="http://averybrewing.com/brewery/recipes-for-homebrewers/">Avery's Brewing Recipes</a></li><br>
-		<li><a href="http://www.popularmechanics.com/home/skills/10-award-winning-home-brew-recipes">Popular Mechanics home brewers recipes</a></li>
-	</ul>
+		</p>
+</article>
+<article style="margin-top: -50px;">
+	<h2>Do you want more recipes?</h2>
+	
+	<a href="http://beersmithrecipes.com/">Beer Smith Recipes</a> <br>
+	<a href="http://beerrecipes.org/">Home Brewers Recipes</a> <br>
+	<a href="http://averybrewing.com/brewery/recipes-for-homebrewers/">Avery's Brewing Recipes</a> <br>
+	<a href="http://www.popularmechanics.com/home/skills/10-award-winning-home-brew-recipes">Popular Mechanics home brewers recipes</a> <br>
+</article>
 </div><!-- Close glassDescription-->
 
 </div> <!-- Closes mainBody -->
 </div><!-- Closes the container-->
-</header>
-</div>
+
 
 </body>
 </html>

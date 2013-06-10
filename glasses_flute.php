@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>The Art of Beer</title>
+	<title>The Art of Beer | Flute Glass</title>
 	<link rel="stylesheet" href="styles.css">
   <script src="script.js"></script>
 </head>
@@ -13,7 +13,7 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
+
 <div class="container">
 <div class="mainBody">
 	<h1>Flute glass</h1>
@@ -21,31 +21,30 @@ include 'navigation.php';
 	<div class="glassDescription">
 		<img src="images/fluteDesc.jpg" alt="">
 
-		<h1>Tell me a bit about it...</h1>
+		<h2>Tell me a bit about it...</h2>
 	<p>
 		The world of champagne lends elegance to certain types of beer. Long and narrow bodies ensure that carbonation doesn't dissipate too quickly and showcase a lively carbonation or sparkling color. Stems will often be a bit shorter than the traditional champagne glass, but not necessarily. 
 	</p>
-	<h1>Why should I use this glass?</h1>
+	<h2>Why should I use this glass?</h2>
 	<p>
 		Enhances and showcases carbonation.
 		<br>
 		Releases volatiles quickly for a more intense upfront aroma.
 	</p>
-	<h1>I got that, when is this glass appropriate?</h1>
-	<ul>
-		<li>American Wild Ale</li>
-		<li>Bock</li>
-		<li>Czech Pilsner</li>
-		<li>Eisbock</li>
-		<li>Euro Strong Lager</li>
-		<li>German Pilsner</li>
-		<li>Lambit - Fruit</li>
-	</ul>
+	<h2>I got that, when is this glass appropriate?</h2>
+	
+		American Wild Ale  <br>	
+		Bock <br>
+		Czech Pilsner <br>
+		Eisbock <br>
+		Euro Strong Lager <br>
+		German Pilsner <br>
+		Lambit - Fruit <br>
 </div><!-- Close glassDescription-->
 
 </div> <!-- Closes mainBody -->
 </div><!-- Closes the container-->
-</header>
+
 </div>
 
 </body>

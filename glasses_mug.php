@@ -13,7 +13,7 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
+
 <div class="container">
 <div class="mainBody">
 	<h1>Mug glass</h1>
@@ -23,31 +23,29 @@ include 'navigation.php';
 	<div class="glassDescription">
 		<img src="images/mugDesc.png" alt="">
 
-		<h1>Tell me a bit about it...</h1>
+		<h2>Tell me a bit about it...</h2>
 	<p>
 		Heavy, sturdy, large and with handle, the mug is a fun and serious piece of glassware that comes in many sizes and shapes. The best part of using a mug is that you can clink them together with more confidence than other types of glassware, and they hold loads of beer. Seidel is a German mug, while a Stein is the stone equivalent that traditionally features a lid, the use of which dates back to the Black Plague to prevent flies from dropping in.
 	</p>
-	<h1>Why should I use this glass?</h1>
+	<h2>Why should I use this glass?</h2>
 	<p>
 		Easy to drink out of.
 		<br>
 		Holds plenty of volume.
 	</p>
-	<h1>I got that, when is this glass appropriate?</h1>
-	<ul>
-		<li>American Amber Lager</li>
-		<li>American Amber Ale</li>
-		<li>American Black Ale</li>
-		<li>American Blonde Ale</li>
-		<li>American Brown Ale</li>
-		<li>American Dark Wheat Ale</li>
-		<li>American IPA</li>
-	</ul>
-</div><!-- Close glassDescription-->
+	<h2>I got that, when is this glass appropriate?</h2>
+		American Amber Lager<br>
+		American Amber Ale<br>
+		American Black Ale<br>
+		American Blonde Ale<br>
+		American Brown Ale<br>
+		American Dark Wheat Ale<br>
+		American IPA<br>
+	</div><!-- Close glassDescription-->
 
 </div> <!-- Closes mainBody -->
 </div><!-- Closes the container-->
-</header>
+
 </div>
 
 </body>

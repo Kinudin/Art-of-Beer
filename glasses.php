@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>The Art of Beer</title>
+	<title>The Art of Beer | Glass Types</title>
 	<link rel="stylesheet" href="styles.css">
   <script src="script.js"></script>
 </head>
@@ -13,11 +13,10 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
 <div class="container">
 <div class="mainBody">
-<h3>Glasses</h3>
-<p>The glass. It's more than just a marketing statement, although that's part of it of course.</p>
+<h1>Glasses</h1>
+<aside>The glass. It's more than just a marketing statement, although that's part of it of course.</aside>
 <div class="glassesDisplay">
 <article><a href="glasses_flute.php"><img src="images/fluteGlass.png" alt="">
 Flute </a>
@@ -64,7 +63,6 @@ Oversized Wine <br> Glass</a>
 </div>
 </div>
 </div><!-- Closes the container-->
-</header>
 </div>
 
 </body>

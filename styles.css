@@ -11,62 +11,60 @@
 }
 
 body{
-  background: #eee;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  background: #eee;
   color:#111;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
 }
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Droid Serif', serif;
   font-variant: small-caps;
+  font-family: 'Droid Serif', serif;
 }
 
 ul{
-  list-style: none;
   margin: 0;
   padding: 20px 10px;
+  list-style: none;
 }
 
 ul li{
   padding-top: 5px;
 }
-
+/*nav {
+  position: relative;
+  z-index: 999;
+  width: 200px;
+}*/
 nav a{
-  border-bottom: dotted 1px rgba(255,255,255,0.2);
   display: block;
   padding: 5px 0;
-  text-decoration: none;
-  color: #eee;
   width: 100%;
+  border-bottom: dotted 1px rgba(255,255,255,0.2);
+  color: #eee;
+  text-decoration: none;
   transition: all .1s ease;/*  The thing that animates the entire nav bar*/
-}
-
-nav a:hover{
-  color: #F1C40F;
-  padding-left: 5px;
 }
 
 nav li:last-of-type a{
   border: 0;
 }
-header {
-  margin-left:120px;
+
+nav a:hover{
+  padding-left: 5px;
+  color: #F1C40F;
 }
 
-header a{
-  text-decoration: none;
-  color: #333;
-  float: left;
-}
+
 
 nav{
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: 100%;
   background: #333;
   box-shadow: -10px 0 10px -5px #222 inset;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  width: 200px;
 }
 
 
@@ -81,81 +79,88 @@ nav, .content{
 
 
 .content{
-  float: left;
-  width: 100%;
+  margin-left:120px;
   position: relative;
+  float: left;
 }
 
 .container {
-  line-height: 150%;
-  font-size: 1.1em;
   margin-top: 50px;
+  font-size: 1.1em;
+  line-height: 150%;
 }
 
-.container h3 {
-  font-family: 'Droid Serif', serif;
-  font-weight: 700;
-  text-transform:uppercase;
+.container h1 {
   padding-bottom: .35em;
-  text-shadow: 2px 2px 1px #F1C40F;
   border-bottom: 2px dotted #F1C40F;
-  width: 30%;
-  font-size: 7em;
+  text-shadow: 2px 2px 1px #F1C40F;
+  font-weight: 700;
+  font-size: 6em;
+  /*font-family: 'Droid Serif', serif;*/
 }
 
 .mainBody{
-  float: left;
   position: relative;
   left: 95px;
-  width: 900px;
+  float: left;
+  width:700px;
 }
 
 .mainBody aside {
-  font-size: .75em;
-  margin-left: 20px;
+  margin-left: 40px;
   font-style: italic;
+  font-size: .9em;
 }
 
-.mainBody aside a {
+.mainBody a {
   text-decoration: none;
+  color: black;
 }
+
+.mainBody a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.mainBody a:active {
+  text-decoration: underline;
+}
+
 .mainBody article{
-  width: 700px;
-  height: 211px;
-  float: left;
-  padding: 10px;
+  display: block;
+  height: 200px;
 }
-.mainBody article h4 {
+
+.mainBody article p {
+  /*float: left;*/
+  font-size: .75em;
+}
+
+.mainBody article h2 {
   float: left;
-  font-size: 1.2em;
-  margin-left: -10px;
   margin-right: 40px;
   margin-bottom: 150px;
+  margin-left: -10px;
   width: 170px;
-  font-weight: 800;
   border-bottom: 1px dotted #F1C40F;
+  font-weight: 800;
+  font-size: 1.2em;
 }
-.mainBody article p {
-  float: left;
-  font-size: .75em;
-  margin-top: -5px;
-  width: 400px;
-  padding-left: 5px;
-}
+
 
 .mainBodyRight {
   float: left;
-  width: 60%;
   margin-left: 2em;
   padding-left: 1em;
+  width: 60%;
   border-left: 1px solid gray;
 }
 
 .quotes {
   float: left;
-  width: 20%;
   margin-left: 2em;
   padding-left: 1em;
+  width: 20%;
   border-left: 1px solid gray;
 }
 
@@ -164,40 +169,39 @@ SPLASH BODY STYLES
 */
 
 .splashBody {
-  height: 100%;
-  width: 100%;
-  background-color: black;
   position: fixed;
+  width: 100%;
+  height: 100%;
 
-  background: url(images/splashBG.jpg) no-repeat center center fixed; 
+  background: url(images/splashBG.jpg) no-repeat center center fixed;
+  background-color: black;
+    background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 
 .splashBodyWords {
-  margin-top: 25%;
-    font-family: 'Rye', cursive;
+  margin-top: 30%;
+  /*display: inline-block;*/
+  /*width: 100%;*/
 }
 
-#responsive_headline {
-  font-family: 'Rye', cursive;
-}
 .splashBody a {
+  color: #000000;
   text-decoration: none;
   text-shadow: 2px 2px 1px #f1c411;
-  color: #000000;
 }
 
 .splashBody a:visited {
   color: #000000;
 }
 .splashBodyWords h1 {
-  font-size: 9em;
   padding-right: 5%;
-  text-align: right;
   background: rgba(139, 137, 137, .5);
+  text-align: right;
+  font-size: 10em;
+
 }
 
 
@@ -205,10 +209,10 @@ SPLASH BODY STYLES
 GLASS PAGE DESCRIPTIONS
 */
 .glassDescription {
-  margin-left: 60px;
   margin-top: 50px;
-  font-size: 16px;
+  margin-left: 60px;
   width: 80%;
+  font-size: 16px;
 }
 
 .glassDescription p {
@@ -219,35 +223,48 @@ GLASS PAGE DESCRIPTIONS
   margin-top: 25px;
 }
 
+.glassDescription h2 {
+  margin-top: 20px;
+}
 .glassDescription img {
   position: relative;
   left: 20%;
   float: right;
-  max-height: 400px;
   max-width: 172px;
+  max-height: 400px;
 }
 
+.glassDescription article {
+  height: 100%;
+  display:block;
+}
+
+
 .glassesDisplay {
-  width: 900px;
   float: left;
   margin-left: 100px;
 }
 
+.glassesDisplay a {
+  float: left;
+}
+
 .glassesDisplay article {
   width: 250px;
+  display: inline;
   text-align: center;
 }
 
 .glassesDisplay article img {
 display: block;
-height: 141px;
 width: 129px;
+height: 141px;
 }
 
 .glassesDisplay article a:hover {
+  border-radius: 10px;
   background-color: black;
   color: white;
-  border-radius: 10px;
   transition: all .1s;
 }
 
@@ -257,28 +274,39 @@ PULLQUOTE INFORMATION
 
 .pullQuote {
   position: relative;
-  font-family: 'Open Sans', sans-serif;
   margin-top: 30px;
-  font-size: .8em;
   font-weight: 100;
+  font-size: .8em;
+  font-family: 'Open Sans', sans-serif;
   }
 .pullQuote footer {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 0.6em;
-    font-weight: 900;
-    color: black;
     float: right;
+    color: black;
+    font-weight: 900;
+    font-size: 0.6em;
+    font-family: 'Noto Sans', sans-serif;
 }
 .pullQuote:before {
       content: '-';  
 }
 .pullQuote:after {
-      content: '\n"';
       position: absolute;
       top: 0.28em;
       right: 0;
-      font-size: 6em;
-      font-style: italic;
-      color: darken($white, 7%);
       z-index: -1;
+      color: darken($white, 7%);
+      content: '\n"';
+      font-style: italic;
+      font-size: 6em;
    }
+
+
+/*
+ID'S
+*/
+
+
+#smallTop {
+  position: relative;
+  top: -80px;
+}

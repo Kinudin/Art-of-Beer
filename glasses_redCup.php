@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>The Art of Beer | Mug Glass</title>
+	<title>The Art of Beer | Red Solo Cup</title>
 	<link rel="stylesheet" href="styles.css">
   <script src="script.js"></script>
 </head>
@@ -13,7 +13,6 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
 <div class="container">
 <div class="mainBody">
 	<h1>Red Solo Cup</h1>
@@ -21,11 +20,11 @@ include 'navigation.php';
 	<div class="glassDescription">
 		<img src="images/redCupDesc.jpg" alt="">
 
-		<h1>Tell me a bit about it...</h1>
+		<h2>Tell me a bit about it...</h2>
 	<p>
 		Made of plastic fantastic, this handy 16 ounce vessel is a party-goers dream. They're recycleable, ridiculously easy to spot out in a crowd, and makes stocking up for the next party a simple and worry free experience.
 	</p>
-	<h1>Why should I use this cup?</h1>
+	<h2>Why should I use this cup?</h2>
 	<p>
 		Easy to drink out of.
 		<br>
@@ -33,20 +32,17 @@ include 'navigation.php';
 		<br>
 		Easy to get rid of.
 	</p>
-	<h1>I got that, when is this glass appropriate?</h1>
-	<ul>
-		<li>Whenever you want</li>
-		<li>If you ran out of glasses</li>
-		<li>You're going to a frat / sorority party</li>
-		<li>Your dishwasher is broken</li>
-		<li>Fancy fizzy yellow beers are present</li>
-		<li>The environment is frequented by broken glass.</li>
-	</ul>
+	<h2>I got that, when is this glass appropriate?</h2>
+		Whenever you want <br>
+		If you ran out of glasses <br>
+		You're going to a frat / sorority party <br>
+		Your dishwasher is broken <br>
+		Fancy fizzy yellow beers are present <br>
+		The environment is frequented by broken glass. <br>
 </div><!-- Close glassDescription-->
 
 </div> <!-- Closes mainBody -->
 </div><!-- Closes the container-->
-</header>
 </div>
 
 </body>

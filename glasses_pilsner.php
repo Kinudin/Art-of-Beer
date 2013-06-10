@@ -13,7 +13,7 @@
  <?
 include 'navigation.php';
 ?> 
-<header>
+
 <div class="container">
 <div class="mainBody">
 	<h1>Pilsner glass</h1>
@@ -23,11 +23,11 @@ include 'navigation.php';
 	<div class="glassDescription">
 		<img src="images/pilsnerDesc.png" alt="">
 
-		<h1>Tell me a bit about it...</h1>
+		<h2>Tell me a bit about it...</h2>
 	<p>
 		Typically a tall, slender and tapered 12-ounce glass, shaped like a trumpet at times, that captures the sparkling effervesces and colors of a Pils while maintaining its head. A Pokal is a European Pilsner glass with a stem. 
 	</p>
-	<h1>Why should I use this glass?</h1>
+	<h2>Why should I use this glass?</h2>
 	<p>
 		Showcases color, clarity and carbonation.
 		<br>
@@ -35,20 +35,19 @@ include 'navigation.php';
 		<br>
 		Enhances voatiles.
 	</p>
-	<h1>I got that, when is this glass appropriate?</h1>
-	<ul>
-		<li>American Adjunct Lager</li>
-		<li>American Amber</li>
-		<li>American Double</li>
-		<li>American Malt Liquor</li>
-		<li>American Pale Lager</li>
-		<li>Bock</li>
-	</ul>
+	<h2>I got that, when is this glass appropriate?</h2>
+	
+		American Adjunct Lager<br>
+		American Amber<br>
+		American Double<br>
+		American Malt Liquor<br>
+		American Pale Lager<br>
+		Bock<br>
 </div><!-- Close glassDescription-->
 
 </div> <!-- Closes mainBody -->
 </div><!-- Closes the container-->
-</header>
+
 </div>
 
 </body>
