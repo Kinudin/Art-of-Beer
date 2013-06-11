@@ -14,3 +14,14 @@ $(document).hover(function() {
 	}
 	)
 });
+
+
+//The navigation menu
+$(function() {
+    var path = location.pathname;
+    var pathArray = path.split('/');
+    var pArrLength = pathArray.length;
+    for (var i = 0; i < pArrLength; i++) {
+        $("a[href*='"+pathArray[i]+"']").addClass("currentlyAt");
+    };
+});
