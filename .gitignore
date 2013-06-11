@@ -2,3 +2,9 @@
 images/.DS_Store
 
 .DS_Store
+
+ci_ide_helper.php
+
+*.sublime-workspace
+
+Beer Project Revision.sublime-workspace

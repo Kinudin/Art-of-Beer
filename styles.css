@@ -56,7 +56,11 @@ nav a:hover{
   color: #F1C40F;
 }
 
-
+.currentlyAt {
+  padding-left: 5px;
+  color: #F1C40F;
+  font-style: italic;
+}
 
 nav{
   position: fixed;
